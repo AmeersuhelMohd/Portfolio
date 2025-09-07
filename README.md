@@ -1,2 +1,2 @@
 # Portfolio
-This holds my profile and work
+This holds my profile
