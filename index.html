@@ -121,7 +121,14 @@
             position: relative;
             overflow: hidden;
         }
-
+        .profile-photo {
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid var(--secondary-color);
+            box-shadow: var(--shadow-lg);
+        }
         .hero::before {
             content: '';
             position: absolute;
@@ -763,19 +770,19 @@
             </div>
             <div class="hero-image fade-in">
                 <div class="profile-card">
-                    <div class="profile-avatar">ASM</div>
-                    <h3>Epic & SAP Developer</h3>
+                    <img src="https://wp-media.petersons.com/blog/wp-content/uploads/2017/11/10124618/blurred-background-cellphone-coffee-842554.jpg" alt="Ameer Suhel Mohammed" class="profile-photo">
+                      <h3>Epic & SAP Developer</h3>
                     <p>Health Informatics Professional</p>
-                    <div class="about-stats">
-                        <div class="stat-item">
-                            <div class="stat-number">3+</div>
-                            <div class="stat-label">Years Experience</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number">5+</div>
-                            <div class="stat-label">Epic Certifications</div>
-                        </div>
-                    </div>
+                      <div class="about-stats">
+                          <div class="stat-item">
+                              <div class="stat-number">3+</div>
+                              <div class="stat-label">Years Experience</div>
+                          </div>
+                          <div class="stat-item">
+                              <div class="stat-number">5+</div>
+                              <div class="stat-label">Epic Certifications</div>
+                          </div>
+                      </div>
                 </div>
             </div>
         </div>
