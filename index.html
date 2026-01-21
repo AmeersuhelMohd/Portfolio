@@ -1196,12 +1196,15 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; <time datetime=""></time> Ameer Suhel Mohammed. All rights reserved.</p>
+            <p>&copy; <span id="currentYear"></span> Ameer Suhel Mohammed. All rights reserved.</p>
             <p>Epic & SAP S/4 HANA Developer | Health Informatics Professional</p>
         </div>
     </footer>
 
     <script>
+        // Automatically sets the current year
+        document.getElementById("currentYear").textContent = new Date().getFullYear();
+        
         // Mobile menu toggle
         const mobileMenuBtn = document.getElementById('mobile-menu-btn');
         const navMenu = document.getElementById('nav-menu');
