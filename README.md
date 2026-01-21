@@ -2,4 +2,4 @@
 This holds my profile
 ## 🐍 Slither Snake Game
 
-![Snake Game Demo](assets/snake-game.gif)
+![snake gif](https://github.com/AmeersuhelMohd/AmeersuhelMohd/blob/output/github-snake-dark.svg)
